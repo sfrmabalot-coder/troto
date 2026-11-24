@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Franklyn Mabalot's portfolio website — Computer Science student and aspiring web developer.">
+  <title>Home | Franklyn Mabalot</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+<header>
+  <div class="container header-inner">
+    <a class="logo" href="index.html">Franklyn<span>.</span></a>
+    <nav>
+      <div class="menu-toggle" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></div>
+      <ul><li><a class="active" href="index.html">Home</a></li><li><a class="" href="about.html">About</a></li><li><a class="" href="projects.html">Projects</a></li><li><a class="" href="skills.html">Skills</a></li><li><a class="" href="education.html">Education</a></li><li><a class="" href="contact.html">Contact</a></li></ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Welcome to my portfolio</div>
+      <h1>Hi, I'm <span>Franklyn Mabalot</span></h1>
+      <div class="typing-text">Computer Science Student</div>
+      <p>I'm a first-year Computer Science student who enjoys learning about technology, programming, and web development. This website is where I share my skills, learning journey, and projects as I continue to grow.</p>
+      <div class="btn-row">
+        <a class="btn primary" href="projects.html">View My Projects</a>
+        <a class="btn secondary" href="contact.html">Contact Me</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/sfrmabalot-coder" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <!-- Replace # with your own social profile links -->
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+    <div class="profile-wrap">
+      <div class="profile-ring"><div class="profile-inner">
+        <img src="Profile.jpg" alt="Franklyn's profile photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+        <div class="profile-placeholder" style="display:none"><i class="fa-solid fa-user"></i></div>
+      </div></div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="container">© <span id="year"></span> Franklyn Mabalot. Built with HTML, CSS &amp; JavaScript.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
